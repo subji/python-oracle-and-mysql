@@ -38,9 +38,9 @@ if __name__ == '__main__':
     add_list = compare(from_prog, to_prog)
     logging.info('출발지, 도착지 Row 비교 완료!')
 
-    # logging.info('출발지 -> 도착지 데이터 추가하는 중...')
-    # to_db.save(to_conn, add_list)
-    # logging.info('출발지 -> 도착지 데이터 추가 완료!')
+    logging.info('출발지 -> 도착지 데이터 추가하는 중...')
+    to_db.save(to_conn, add_list)
+    logging.info('출발지 -> 도착지 데이터 추가 완료!')
 
     logging.info('출발지, 도착지 DB 커넥션 종료하는 중...')
     to_conn.close()
