@@ -1,0 +1,16 @@
+{
+  "oracle": {
+    "host": "...", 
+    "port": "...", 
+    "sid": "...", 
+    "user": "...", 
+    "password": "..."
+  },
+  "mysql": {
+    "user": "...", 
+    "password": "...", 
+    "host": "...", 
+    "db": "...",
+    "charset": "..."
+  }
+}
